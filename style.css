@@ -1,0 +1,179 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+h1,h2{
+  padding-bottom: 20px;
+}
+h3{
+  padding-bottom: 10px;
+}
+p{
+  margin: 10px 0;
+}
+
+/* Utility Container:uses anywhere */
+.container{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary{
+  color: #f7c08a;
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-block;
+  background: rgb(102, 61, 14);
+  color:#fff ;
+  font-size: 18px;
+  border:none;
+  padding: 10px 8px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: sienna;
+}
+
+/* Navigation Bar */
+#navbar{
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+#navbar a{
+  color: #fff;
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul{
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+}
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+  color: #f7c08a;
+  background-color: #444;
+}
+
+/* Showcase */
+#showcase{
+  background: url(/Image_resource/faded.png) no-repeat 
+  center center/cover;
+  height: 600px;
+}
+#showcase .showcase-content{
+  color: #fff;
+  text-align: center;
+  padding: 150px;
+}
+#showcase .showcase-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+#showcontact .showcase-content input{
+  width: 100%;
+  height: 30px;
+}
+#showcontact .showcase-content textarea{
+  width: 100%;
+}
+#showabout .showcase-content p{
+  float: left;
+  text-justify: auto;
+  width: 55%;
+  padding-top:10px ;
+}
+
+#aboutimg{
+  overflow:hidden;
+  float:right;
+  width:45%;
+  max-width:450px;
+  height:300px;
+  position:relative;
+  border-radius:50%;
+}
+#aboutlast {
+  margin-top: 20px;
+  float: left;
+  text-align: center;
+  overflow:hidden;
+  background: url(/Image_resource/hotel.jpg) no-repeat center
+ center/cover;
+}
+#aboutlast h1{
+  padding-top: 25px;
+  color: #fff;
+  font-size: 45px;
+}
+#aboutlast p{
+  margin:15px 50px;
+  padding: 10px;
+  max-width: 90%;
+  float: left;
+  text-align: left;
+  background-color: #facc9f;
+  text-justify: auto;
+  text-decoration: solid;
+  color: #111;
+  opacity: 0.8;
+}
+#imgabout{
+  float: left;
+  position: relative;
+  border-radius: 50%;
+  width: 15%;
+  padding:10px 10px;
+}
+#imgabout1{
+  position: relative;
+  float: left;
+  border-radius: 50%;
+  width: 15%;
+  padding:10px 10px;
+}
+
+/* Footer */
+#footer .footer-content{
+  background: #333;
+  padding-top: 5px;
+  overflow: auto;
+  width: 100%;
+  height: 80px;
+}
+#footer .footer-content p{
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+}
